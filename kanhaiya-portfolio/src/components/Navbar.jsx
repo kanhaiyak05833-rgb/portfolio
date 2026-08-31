@@ -70,6 +70,14 @@ export default function Navbar({ theme, toggleTheme }) {
             View Resume
           </a>
 
+          <a
+            href={profile.cvPath}
+            download
+            className="focus-ring hidden sm:inline-flex items-center rounded-full border border-signal/40 px-4 py-2 font-mono text-xs text-signal hover:bg-signal/10 transition-colors"
+          >
+            Download CV
+          </a>
+
           <button
             onClick={() => setOpen((o) => !o)}
             aria-label={open ? 'Close menu' : 'Open menu'}
@@ -102,6 +110,13 @@ export default function Navbar({ theme, toggleTheme }) {
                 className="focus-ring inline-flex items-center rounded-full border border-signal/40 px-4 py-2 text-xs text-signal"
               >
                 View Resume
+              </a>
+              <a
+                href={profile.cvPath}
+                download
+                className="focus-ring inline-flex items-center rounded-full border border-signal/40 px-4 py-2 text-xs text-signal"
+              >
+                Download CV
               </a>
               <button
                 onClick={toggleTheme}

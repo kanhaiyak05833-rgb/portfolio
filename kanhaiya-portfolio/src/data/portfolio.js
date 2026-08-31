@@ -11,6 +11,7 @@ export const profile = {
   github: 'https://github.com/kanhaiyak05833-rgb',
   githubLabel: 'github.com/kanhaiyak05833-rgb',
   resumePath: '/Kanhaiya-Kumar-Resume.pdf',
+  cvPath: '/Kanhaiya-Kumar-CV.docx',
   location: 'Phagwara, Punjab, India',
 }
 
