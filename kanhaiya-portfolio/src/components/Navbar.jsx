@@ -63,14 +63,6 @@ export default function Navbar({ theme, toggleTheme }) {
           </button>
 
           <a
-            href={profile.resumePath}
-            download
-            className="focus-ring hidden sm:inline-flex items-center rounded-full border border-signal/40 px-4 py-2 font-mono text-xs text-signal hover:bg-signal/10 transition-colors"
-          >
-            View Resume
-          </a>
-
-          <a
             href={profile.cvPath}
             download
             className="focus-ring hidden sm:inline-flex items-center rounded-full border border-signal/40 px-4 py-2 font-mono text-xs text-signal hover:bg-signal/10 transition-colors"
@@ -104,13 +96,6 @@ export default function Navbar({ theme, toggleTheme }) {
               </li>
             ))}
             <li className="flex items-center gap-3 pt-2">
-              <a
-                href={profile.resumePath}
-                download
-                className="focus-ring inline-flex items-center rounded-full border border-signal/40 px-4 py-2 text-xs text-signal"
-              >
-                View Resume
-              </a>
               <a
                 href={profile.cvPath}
                 download
